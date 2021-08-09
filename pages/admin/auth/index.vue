@@ -37,6 +37,7 @@
           password: this.password
         })
         .then(() => {
+
           this.$router.push('/admin');
         });
       }
